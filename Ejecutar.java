@@ -1,6 +1,6 @@
-public class main {
+public class Ejecutar {
  
-    public static void main(String[]args) {
+    public static void main(String[] args) {
  
         //Crear el sistema con 5 pisos
         SistemaControl sistema = new SistemaControl(5);
