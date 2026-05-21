@@ -1,16 +1,16 @@
 class Alerta {
-    private String mensaje;   // Descripción de la alerta
-    private String tipo;      // Tipo: "FALLA", "ADVERTENCIA", "INFO"
-    private boolean activa;   // Si la alerta sigue vigente
+    private String mensaje; // Descripción de la alerta
+    private String tipo; // Falla, Advertencia, Información
+    private boolean activa; // Si la alerta activa
  
     // Constructor: crea una alerta con mensaje y tipo
     public Alerta(String mensaje, String tipo) {
-        this.mensaje= mensaje; // Guarda el texto de la alerta
-        this.tipo= tipo;    // Guarda el tipo de alerta
-        this.activa= true;    // La alerta empieza activa
+        this.mensaje= mensaje; // Guarda el mensaje de la alerta
+        this.tipo= tipo;  // Guarda el tipo de alerta
+        this.activa= true;  // La alerta empieza activa
     }
  
-    // Muestra la alerta en consola
+    // Muestra la alerta 
     public void mostrar() {
         System.out.println(" ALERTA - " + tipo + " " + mensaje);
     }
